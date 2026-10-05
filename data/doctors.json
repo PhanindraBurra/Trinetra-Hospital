@@ -1,0 +1,153 @@
+{
+  "departments": [
+    {
+      "id": "general-medicine",
+      "name": "General Medicine & Critical Care",
+      "icon": "Stethoscope",
+      "shortDescription": "Comprehensive care for hypertension, diabetes, viral fevers, and acute internal medical conditions.",
+      "keyTreatments": ["Blood Pressure (BP) Management", "Diabetes & Metabolic Care", "Infectious Fevers & Dengue", "Adult Health Screening"]
+    },
+    {
+      "id": "pediatrics",
+      "name": "Pediatrics & Child Care",
+      "icon": "Baby",
+      "shortDescription": "Expert pediatric care for infants, children, and adolescents with dedicated child health guidance.",
+      "keyTreatments": ["Childhood Viral Fevers", "Pediatric Vaccinations & Immunization", "Throat & Ear Infections", "Growth & Nutrition Monitoring"]
+    },
+    {
+      "id": "general-surgery",
+      "name": "General & Laparoscopic Surgery",
+      "icon": "Activity",
+      "shortDescription": "Advanced general and minimally invasive surgical management for acute and elective conditions.",
+      "keyTreatments": ["Laparoscopic Procedures", "Trauma & Wound Surgery", "Hernia & Appendicitis Care", "Minor Surgical Procedures"]
+    },
+    {
+      "id": "gynaecology",
+      "name": "Obstetrics & Gynecology",
+      "icon": "HeartHandshake",
+      "shortDescription": "Dedicated women's health, maternal wellness, prenatal consultations, and gynecological care.",
+      "keyTreatments": ["Antenatal & Postnatal Care", "High-Risk Pregnancy Support", "Hormonal & PCOD Care", "Women Wellness Screening"]
+    },
+    {
+      "id": "ent",
+      "name": "ENT (Ear, Nose & Throat)",
+      "icon": "Ear",
+      "shortDescription": "Gold medalist ENT specialist care for tonsillitis, chronic sinusitis, hearing disorders, and vertigo.",
+      "keyTreatments": ["Tonsillitis & Throat Infection", "Chronic Sinusitis & Nasal Block", "Ear Pain & Discharge Care", "Vertigo & Hearing Evaluation"]
+    },
+    {
+      "id": "emergency-icu",
+      "name": "24/7 Emergency & Critical Care (ICU)",
+      "icon": "Siren",
+      "shortDescription": "Round-the-clock emergency casualty, trauma resuscitation, mechanical ventilation, and multi-parameter monitoring.",
+      "keyTreatments": ["Acute Trauma Resuscitation", "Intensive Care Unit (ICU)", "24/7 Emergency Ambulance Desk", "Critical Life Support"]
+    }
+  ],
+  "doctors": [
+    {
+      "id": "dr-valli-sri",
+      "name": "Dr. Valli Sri",
+      "displayName": "Dr. Valli Sri (డా. వల్లి శ్రీ)",
+      "qualification": "MBBS, MD (General Medicine)",
+      "specialization": "General Medicine Specialist",
+      "departmentId": "general-medicine",
+      "departmentName": "General Medicine & Critical Care",
+      "experience": "Consultant Physician & Diabetologist",
+      "image": "/assets/doctors/dr_valli_sri.jpg",
+      "poster": "/assets/doctors/dr_valli_sri_poster.jpg",
+      "availableDays": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+      "timing": "9:30 AM - 1:30 PM & 5:00 PM - 8:30 PM",
+      "about": "General medicine expert managing blood pressure (hypertension), diabetes, infectious diseases, and emergency adult patient stabilization at Trinethra Hospital Jangareddygudem.",
+      "services": [
+        "Blood Pressure (Hypertension) Control & Screening",
+        "Diabetes & Metabolic Disorder Management",
+        "Dengue, Typhoid, Malaria & Viral Fever Care",
+        "Adult Preventive Health Checkups"
+      ]
+    },
+    {
+      "id": "dr-nagendra-babu",
+      "name": "Dr. Nagendra Babu Garu",
+      "displayName": "Dr. Nagendra Babu Garu",
+      "qualification": "MBBS, DNB (Pediatrics)",
+      "specialization": "Pediatrician & Child Health Specialist",
+      "departmentId": "pediatrics",
+      "departmentName": "Pediatrics & Child Care",
+      "experience": "Senior Consultant Pediatrician",
+      "image": "/assets/doctors/dr_nagendra_babu.jpg",
+      "poster": "/assets/doctors/dr_nagendra_babu_poster.jpg",
+      "availableDays": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+      "timing": "10:00 AM - 1:00 PM & 6:00 PM - 8:30 PM",
+      "about": "Expert care for every little one. Specializing in pediatric viral fevers, childhood respiratory infections, newborn examinations, routine immunizations, and developmental health.",
+      "services": [
+        "Childhood Viral & Bacterial Fever Treatment",
+        "Pediatric Immunization & Growth Charts",
+        "Throat, Ear & Chest Infection Management",
+        "Newborn & Infant Health Guidance"
+      ]
+    },
+    {
+      "id": "dr-p-sarathy",
+      "name": "Dr. P. Sarathy",
+      "displayName": "Dr. P. Sarathy",
+      "qualification": "M.B.B.S., M.S (General Surgery)",
+      "specialization": "General & Laparoscopic Surgeon",
+      "departmentId": "general-surgery",
+      "departmentName": "General & Laparoscopic Surgery",
+      "experience": "Consultant General & Laparoscopic Surgeon",
+      "image": "/assets/doctors/dr_p_sarathy.jpg",
+      "poster": "/assets/doctors/dr_p_sarathy_poster.jpg",
+      "availableDays": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+      "timing": "11:00 AM - 2:30 PM & 6:00 PM - 8:30 PM",
+      "about": "Experienced surgical specialist managing acute trauma, laparoscopic abdominal procedures, emergency wound management, and general surgery consultations.",
+      "services": [
+        "Laparoscopic Surgery Consultations",
+        "Emergency Trauma & Wound Care",
+        "Hernia, Hydrocele & Appendicitis Care",
+        "Minor Day-Care Surgical Procedures"
+      ]
+    },
+    {
+      "id": "dr-priyanka",
+      "name": "Dr. Priyanka",
+      "displayName": "Dr. Priyanka",
+      "qualification": "MBBS, MS / DGO (Gynaecology)",
+      "specialization": "Gynaecologist & Obstetrician",
+      "departmentId": "gynaecology",
+      "departmentName": "Obstetrics & Gynecology",
+      "experience": "Consultant Gynaecologist & Obstetrician",
+      "image": "/assets/doctors/dr_priyanka.jpg",
+      "poster": "/assets/doctors/dr_priyanka_poster.jpg",
+      "availableDays": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+      "timing": "10:30 AM - 2:00 PM & 5:30 PM - 8:00 PM",
+      "about": "Women's healthcare specialist providing comprehensive prenatal care, safe deliveries, menstrual disorders therapy, and female wellness consultations.",
+      "services": [
+        "Antenatal & High-Risk Pregnancy Care",
+        "Postnatal Maternal Wellness Follow-ups",
+        "PCOD, PCOS & Menstrual Irregularities",
+        "Women's Preventive Health Screening"
+      ]
+    },
+    {
+      "id": "dr-samatha",
+      "name": "Dr. Samatha Garu",
+      "displayName": "Dr. Samatha Garu",
+      "qualification": "M.B.B.S., M.S (ENT), Gold Medalist",
+      "specialization": "ENT Specialist (చెవి ముక్కు గొంతు స్పెషలిస్ట్)",
+      "departmentId": "ent",
+      "departmentName": "ENT (Ear, Nose & Throat)",
+      "experience": "Gold Medalist ENT Specialist",
+      "image": "/assets/doctors/dr_samatha.jpg",
+      "poster": "/assets/doctors/dr_samatha_poster.jpg",
+      "availableDays": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+      "timing": "11:00 AM - 2:00 PM & 6:00 PM - 8:00 PM",
+      "about": "Gold Medalist ENT Consultant providing advanced clinical management for acute tonsillitis, chronic sinusitis, ear pain, hearing issues, and vertigo.",
+      "services": [
+        "Tonsillitis Diagnosis & Modern Treatment",
+        "Sinusitis & Nasal Obstruction Care",
+        "Ear Examination, Infection & Hearing Care",
+        "Throat, Voice & Vertigo Management"
+      ]
+    }
+  ]
+}

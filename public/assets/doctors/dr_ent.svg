@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 450" fill="none">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="400" y2="450" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0F766E" stop-opacity="0.12" />
+      <stop offset="100%" stop-color="#134E4A" stop-opacity="0.22" />
+    </linearGradient>
+    <linearGradient id="badgeGrad" x1="0" y1="0" x2="200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0F766E" />
+      <stop offset="100%" stop-color="#134E4A" />
+    </linearGradient>
+  </defs>
+
+  <!-- Clean Background Card -->
+  <rect width="400" height="450" fill="url(#bgGrad)" rx="24" />
+  
+  <!-- Subtle Medical Cross pattern -->
+  <g opacity="0.06" fill="#0F766E">
+    <path d="M50 40 H70 V50 H80 V70 H70 V80 H50 V70 H40 V50 H50 Z" />
+    <path d="M320 60 H340 V70 H350 V90 H340 V100 H320 V90 H310 V70 H320 Z" />
+    <path d="M60 340 H80 V350 H90 V370 H80 V380 H60 V370 H50 V350 H60 Z" />
+  </g>
+
+  <!-- Professional Doctor Figure Outline -->
+  <g transform="translate(200, 190)">
+    <!-- Head / Face -->
+    <circle cx="0" cy="-55" r="46" fill="#CBD5E1" stroke="#94A3B8" stroke-width="2.5" />
+    <!-- Hair / Clean Head Silhouette -->
+    <path d="M-44 -65 C-42 -100, 42 -100, 44 -65 C40 -85, -40 -85, -44 -65 Z" fill="#134E4A" opacity="0.8" />
+    
+    <!-- Doctor Lab Coat & Shoulders -->
+    <path d="M-85 140 C-85 45, -55 0, -28 -5 L-12 35 L0 45 L12 35 L28 -5 C55 0, 85 45, 85 140 Z" fill="#FFFFFF" stroke="#94A3B8" stroke-width="2.5" />
+    <!-- Lab Coat Inner Shirt/Tie -->
+    <path d="M-28 -5 L0 45 L28 -5 L14 -12 L0 -2 L-14 -12 Z" fill="#0F766E" />
+    
+    <!-- Stethoscope -->
+    <path d="M-36 10 C-45 50, -30 90, -15 105 L-15 118" stroke="#334155" stroke-width="4.5" stroke-linecap="round" fill="none" />
+    <path d="M36 10 C45 50, 30 90, 15 105 L15 118" stroke="#334155" stroke-width="4.5" stroke-linecap="round" fill="none" />
+    <circle cx="0" cy="126" r="14" fill="#64748B" stroke="#0F172A" stroke-width="3" />
+    <circle cx="0" cy="126" r="7" fill="#E2E8F0" />
+    
+    <!-- Medical Chest Pocket & ID Badge -->
+    <rect x="35" y="48" width="30" height="42" rx="4" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="1.5" />
+    <line x1="42" y1="58" x2="58" y2="58" stroke="#0F766E" stroke-width="2.5" stroke-linecap="round" />
+    <line x1="42" y1="68" x2="55" y2="68" stroke="#94A3B8" stroke-width="2" stroke-linecap="round" />
+  </g>
+
+  <!-- Department Banner Badge -->
+  <g transform="translate(30, 370)">
+    <rect width="340" height="50" rx="12" fill="url(#badgeGrad)" />
+    <text x="170" y="31" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="14" font-weight="700" fill="#FFFFFF" text-anchor="middle" letter-spacing="1.5">
+      ENT SPECIALIST
+    </text>
+  </g>
+</svg>

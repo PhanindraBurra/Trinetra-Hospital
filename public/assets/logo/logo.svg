@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 100" fill="none">
+  <!-- Brand Icon Group -->
+  <g transform="translate(10, 10)">
+    <!-- Glow Backdrop -->
+    <rect x="0" y="0" width="80" height="80" rx="20" fill="url(#brandGrad)" />
+    
+    <!-- Medical Shield/Cross Symbol with Three-Ray Eye of Health -->
+    <g transform="translate(40, 40)">
+      <!-- Central Clinical Cross -->
+      <path d="M-6 -22 H6 V-6 H22 V6 H6 V22 H-6 V6 H-22 V-6 H-6 Z" fill="#FFFFFF" opacity="0.95" />
+      
+      <!-- Trinethra Protective Arc (Three arcs / vision ring) -->
+      <circle cx="0" cy="0" r="28" stroke="#FFFFFF" stroke-width="2.5" stroke-dasharray="8 6" opacity="0.4" />
+      <circle cx="0" cy="0" r="7" fill="#0D9488" stroke="#FFFFFF" stroke-width="2" />
+      
+      <!-- Modern Stethoscope/Caring Wings Arc -->
+      <path d="M-24 -4 C-26 14, -14 26, 0 26 C14 26, 26 14, 24 -4" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" fill="none" opacity="0.85" />
+    </g>
+  </g>
+
+  <!-- Hospital Typography -->
+  <g transform="translate(104, 24)">
+    <!-- Primary Brand Title -->
+    <text x="0" y="24" font-family="'Plus Jakarta Sans', 'Inter', system-ui, sans-serif" font-size="25" font-weight="800" fill="#0E7490" letter-spacing="-0.5">
+      TRINETHRA
+    </text>
+    
+    <!-- Subtitle / Multi Speciality Tag -->
+    <text x="0" y="44" font-family="'Inter', system-ui, sans-serif" font-size="11" font-weight="700" fill="#0284C7" letter-spacing="2.2">
+      MULTI SPECIALITY &amp; CRITICAL CARE
+    </text>
+    
+    <!-- Location Badge -->
+    <text x="0" y="60" font-family="'Inter', system-ui, sans-serif" font-size="9.5" font-weight="600" fill="#64748B" letter-spacing="1">
+      JANGAREDDYGUDEM • 24/7 EMERGENCY
+    </text>
+  </g>
+
+  <defs>
+    <linearGradient id="brandGrad" x1="0" y1="0" x2="80" y2="80" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0E7490" />
+      <stop offset="60%" stop-color="#0284C7" />
+      <stop offset="100%" stop-color="#0D9488" />
+    </linearGradient>
+  </defs>
+</svg>

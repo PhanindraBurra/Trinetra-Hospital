@@ -1,0 +1,170 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #0A8CC8;
+  --color-primary-dark: #004B87;
+  --color-primary-light: #38BDF8;
+  --color-secondary: #50B446;
+  --color-secondary-dark: #388E3C;
+  --color-accent: #F58220;
+  --color-accent-dark: #E65100;
+  --color-navy: #0B2545;
+  --color-slate-subtle: #F8FAFC;
+  --color-mint-light: #F0FDF4;
+  --color-cyan-light: #F0F9FF;
+
+  --font-heading: var(--font-plus-jakarta), system-ui, sans-serif;
+  --font-body: var(--font-inter), system-ui, sans-serif;
+}
+
+:root {
+  --primary: #0A8CC8;
+  --primary-hover: #004B87;
+  --secondary: #50B446;
+  --secondary-hover: #388E3C;
+  --accent: #F58220;
+  --dark-text: #0B2545;
+  --muted-text: #475569;
+  --border-color: #E2E8F0;
+  --card-bg: #FFFFFF;
+  --page-bg: #F8FAFC;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 5.5rem;
+}
+
+body {
+  background-color: var(--page-bg);
+  color: var(--dark-text);
+  font-family: var(--font-body);
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  letter-spacing: -0.02em;
+}
+
+/* Custom Healthcare Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #F1F5F9;
+}
+::-webkit-scrollbar-thumb {
+  background: #0A8CC8;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #004B87;
+}
+
+/* ============================================================
+   HOSPITAL ANIMATIONS & CLINICAL MICRO-INTERACTIONS
+   ============================================================ */
+
+/* 1. Realistic Cardiac Heartbeat Animation (lub-dub) */
+@keyframes heartLubDub {
+  0% { transform: scale(1); }
+  14% { transform: scale(1.18); }
+  28% { transform: scale(1); }
+  42% { transform: scale(1.22); }
+  70% { transform: scale(1); }
+  100% { transform: scale(1); }
+}
+
+.animate-heartbeat {
+  animation: heartLubDub 1.8s infinite ease-in-out;
+}
+
+/* 2. ECG Monitor Sweep Animation */
+@keyframes ecgSweep {
+  0% {
+    stroke-dashoffset: 1000;
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+.animate-ecg {
+  stroke-dasharray: 1000;
+  animation: ecgSweep 4s linear infinite;
+}
+
+/* 3. Floating Clinical Badge */
+@keyframes floatMedical {
+  0%, 100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-8px) rotate(0.5deg);
+  }
+}
+
+.animate-float-medical {
+  animation: floatMedical 5s ease-in-out infinite;
+}
+
+/* 4. Soft Emergency Beacon Glow */
+@keyframes emergencyGlow {
+  0%, 100% {
+    box-shadow: 0 0 0 0 rgba(245, 130, 32, 0.4);
+  }
+  50% {
+    box-shadow: 0 0 0 12px rgba(245, 130, 32, 0);
+  }
+}
+
+.animate-emergency-beacon {
+  animation: emergencyGlow 2s infinite cubic-bezier(0.66, 0, 0, 1);
+}
+
+/* 5. Medical Vital Pulse Ring */
+@keyframes pulseRing {
+  0% {
+    transform: scale(0.95);
+    opacity: 0.8;
+  }
+  50% {
+    transform: scale(1.08);
+    opacity: 0.4;
+  }
+  100% {
+    transform: scale(0.95);
+    opacity: 0.8;
+  }
+}
+
+.animate-pulse-ring {
+  animation: pulseRing 3s ease-in-out infinite;
+}
+
+/* 6. Healthcare Brand Glow Card */
+.hover-medical-glow {
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.hover-medical-glow:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 16px 36px -8px rgba(10, 140, 200, 0.18), 0 4px 12px -2px rgba(80, 180, 70, 0.12);
+  border-color: #0A8CC8;
+}
+
+/* Logo Color Gradient Utilities */
+.bg-trinethra-gradient {
+  background: linear-gradient(135deg, #0A8CC8 0%, #004B87 50%, #50B446 100%);
+}
+
+.bg-trinethra-badge {
+  background: linear-gradient(90deg, #0A8CC8 0%, #50B446 60%, #F58220 100%);
+}
+
+.text-trinethra-gradient {
+  background: linear-gradient(135deg, #004B87 0%, #0A8CC8 50%, #50B446 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

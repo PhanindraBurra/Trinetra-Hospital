@@ -1,0 +1,220 @@
+{
+  "hospital": {
+    "name": "Trinethra Multi Speciality & Critical Care Center",
+    "shortName": "Trinethra Hospital",
+    "tagline": "Advanced Medicine. Compassionate Care. 24/7 Dedication.",
+    "slogan": "Your Trusted Healthcare Destination in Jangareddygudem",
+    "description": "Trinethra Multi Speciality & Critical Care Center provides 24/7 state-of-the-art critical care, emergency trauma management, general surgery, pediatrics, gynaecology, and ENT specialist care in Jangareddygudem with experienced doctors and round-the-clock ICU monitoring.",
+    "establishedYear": "2020",
+    "logo": "/assets/logo/logo.png",
+    "logoDark": "/assets/logo/logo.png",
+    "favicon": "/assets/logo/logo.png",
+    "exteriorPhoto": "/assets/gallery/hospital_building.jpg"
+  },
+  "contact": {
+    "primaryPhone": "+91 81678 97999",
+    "emergencyPhone": "+91 89782 62779",
+    "secondaryPhone": "+91 81678 97999",
+    "whatsAppPhone": "918167897999",
+    "email": "contact@trinethrahospital.com",
+    "address": {
+      "street": "Abbaigari Street",
+      "locality": "Jangareddygudem",
+      "region": "Eluru District, Andhra Pradesh",
+      "state": "Andhra Pradesh",
+      "postalCode": "534447",
+      "country": "India"
+    },
+    "timings": {
+      "emergency": "24 Hours / 7 Days a Week (Always Open)",
+      "opd": "Mon - Sat: 9:30 AM - 8:30 PM | Sun: Emergency On-Call",
+      "pharmacy": "24/7 Open",
+      "lab": "24/7 Open"
+    },
+    "mapEmbedUrl": "https://maps.google.com/maps?q=TRINETHRA+MULTI+SPECIALITY+%26+CRITICAL+CARE+CENTER+Abbaigari+Street+Jangareddygudem&t=&z=15&ie=UTF8&iwloc=&output=embed",
+    "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=TRINETHRA+MULTI+SPECIALITY+%26+CRITICAL+CARE+CENTER+Jangareddygudem"
+  },
+  "socialLinks": {
+    "instagram": "https://www.instagram.com/trinethramultispecialityjrg/",
+    "facebook": "https://facebook.com/trinethramultispecialityjrg",
+    "youtube": "https://youtube.com/@trinethrahospital"
+  },
+  "brandColors": {
+    "primary": "#0A8CC8",
+    "primaryDark": "#004B87",
+    "secondary": "#50B446",
+    "secondaryDark": "#3D8E35",
+    "accent": "#F58220",
+    "accentDark": "#D96B10",
+    "darkText": "#0F172A",
+    "lightBackground": "#F8FAFC",
+    "mintTint": "#F0FDF4",
+    "cyanTint": "#F0F9FF"
+  },
+  "stats": [
+    { "label": "Emergency & ICU", "value": "24/7", "description": "Round-the-clock trauma & casualty response" },
+    { "label": "Specialist Doctors", "value": "5+", "description": "Pediatrics, Surgery, Gynae, ENT & Medicine" },
+    { "label": "Verified Rating", "value": "5.0 ★", "description": "Over 580+ verified public ratings" },
+    { "label": "Pharmacy & Lab", "value": "24/7", "description": "On-site medicines and diagnostic reports" }
+  ],
+  "about": {
+    "mission": "To deliver patient-first, ethical, and advanced clinical care to the community of Jangareddygudem and surrounding areas with 24/7 emergency readiness, state-of-the-art ICU facilities, and compassionate doctors.",
+    "vision": "To be the most trusted multispeciality and critical care hospital in the region, recognized for immediate life-saving care, clinical integrity, and comprehensive medical specialties.",
+    "values": [
+      { "title": "24/7 Emergency & ICU Readiness", "desc": "Round-the-clock casualty team and mechanical ventilator support for immediate critical resuscitation." },
+      { "title": "Dedicated Medical Specialists", "desc": "Experienced consultants in Pediatrics, General Medicine, Laparoscopic Surgery, Gynaecology, and ENT." },
+      { "title": "In-House Diagnostics & Pharmacy", "desc": "On-site 24/7 diagnostic laboratory and hospital pharmacy for fast turnaround medication dispensing." },
+      { "title": "Transparent & Affordable Healthcare", "desc": "Ethical medical guidance, clean inpatient facilities, and supportive patient nursing care." }
+    ]
+  },
+  "services": [
+    {
+      "id": "critical-care-icu",
+      "title": "Intensive Care Unit (ICU)",
+      "badge": "24/7 Critical Care",
+      "description": "State-of-the-art ICU with continuous multiparameter monitoring, ventilators, central oxygen, and dedicated critical care nursing team.",
+      "icon": "HeartPulse",
+      "highlight": true
+    },
+    {
+      "id": "emergency-casualty",
+      "title": "24/7 Emergency & Casualty",
+      "badge": "Immediate Response",
+      "description": "Rapid triage, emergency trauma resuscitation, acute medical stabilization, and immediate physician availability round-the-clock.",
+      "icon": "Ambulance",
+      "highlight": true
+    },
+    {
+      "id": "pediatric-care",
+      "title": "Pediatric & Child Health",
+      "badge": "Dr. Nagendra Babu Garu",
+      "description": "Comprehensive child health, treatment for pediatric fevers, routine immunizations, and newborn care led by Dr. Nagendra Babu Garu (MBBS, DNB).",
+      "icon": "Baby",
+      "highlight": false
+    },
+    {
+      "id": "general-surgery",
+      "title": "General & Laparoscopic Surgery",
+      "badge": "Dr. P. Sarathy",
+      "description": "Laparoscopic procedures, emergency trauma surgery, hernia, appendicitis, and wound management led by Dr. P. Sarathy (M.B.B.S., M.S).",
+      "icon": "Activity",
+      "highlight": false
+    },
+    {
+      "id": "maternal-gynae",
+      "title": "Obstetrics & Gynecology",
+      "badge": "Dr. Priyanka",
+      "description": "Antenatal pregnancy care, high-risk maternity care, women's wellness, and fertility counseling under Dr. Priyanka (Gynaecologist).",
+      "icon": "HeartHandshake",
+      "highlight": false
+    },
+    {
+      "id": "ent-clinic",
+      "title": "ENT (Ear, Nose & Throat)",
+      "badge": "Dr. Samatha Garu (Gold Medalist)",
+      "description": "Specialized diagnosis and treatment for acute tonsillitis, chronic sinusitis, ear discharge, hearing, and vertigo by Dr. Samatha Garu.",
+      "icon": "Ear",
+      "highlight": false
+    },
+    {
+      "id": "inhouse-pharmacy",
+      "title": "24/7 Hospital Pharmacy",
+      "badge": "Round The Clock",
+      "description": "Fully stocked hospital pharmacy providing verified medicines, pediatric formulations, and emergency injectables 24 hours a day.",
+      "icon": "Pill",
+      "highlight": false
+    },
+    {
+      "id": "diagnostic-lab",
+      "title": "Diagnostic & Pathology Lab",
+      "badge": "Fast Accurate Reports",
+      "description": "Complete blood counts, biochemistry, infectious panels (Dengue, Typhoid, Malaria), and routine diagnostic profiling.",
+      "icon": "Microscope",
+      "highlight": false
+    }
+  ],
+  "reviewsSummary": {
+    "averageRating": 5.0,
+    "totalReviews": 583,
+    "source": "Google & Justdial Verified Patient Ratings",
+    "googleListingUrl": "https://share.google/RSOtdv9RgYBlFBWau"
+  },
+  "reviews": [
+    {
+      "id": "rev-1",
+      "author": "Ramesh Kumar V.",
+      "rating": 5,
+      "date": "Verified Patient",
+      "text": "Excellent emergency treatment and prompt medical care in Jangareddygudem. The ICU facility and staff responsiveness were life-saving during our critical time. Highly recommended hospital.",
+      "department": "Critical Care / Emergency"
+    },
+    {
+      "id": "rev-2",
+      "author": "Srinivas Rao K.",
+      "rating": 5,
+      "date": "Verified Patient",
+      "text": "Dr. Valli Sri and Dr. Sarathy gave very caring treatment. The hospital is very clean and the 24/7 pharmacy is a big advantage for Jangareddygudem residents.",
+      "department": "General Medicine & Surgery"
+    },
+    {
+      "id": "rev-3",
+      "author": "Lakshmi Narayana P.",
+      "rating": 5,
+      "date": "Verified Patient",
+      "text": "Dr. Nagendra Babu Garu is very patient with children. His diagnosis for our child's viral fever was accurate and recovery was fast. Best pediatrician in the area.",
+      "department": "Pediatrics & Child Care"
+    },
+    {
+      "id": "rev-4",
+      "author": "Bhavani Prasad M.",
+      "rating": 5,
+      "date": "Verified Patient",
+      "text": "Best multispeciality hospital with round the clock emergency services. Immediate attention given at midnight when we brought our patient. Very grateful to the entire medical team.",
+      "department": "Emergency & Casualty"
+    }
+  ],
+  "gallery": [
+    {
+      "id": "gal-main-building",
+      "title": "Trinethra Hospital 4-Story Building & 24/7 Entrance",
+      "category": "Facility",
+      "image": "/assets/gallery/hospital_building.jpg",
+      "alt": "Trinethra Hospital Building in Jangareddygudem"
+    },
+    {
+      "id": "gal-pediatrics-poster",
+      "title": "Pediatric Health & Viral Fever Awareness - Dr. Nagendra Babu Garu",
+      "category": "Doctor Guidance",
+      "image": "/assets/doctors/dr_nagendra_babu_poster.jpg",
+      "alt": "Dr. Nagendra Babu Garu Pediatrician Trinethra Hospital"
+    },
+    {
+      "id": "gal-gynae-poster",
+      "title": "Women's Health & General Wellness - Dr. Priyanka",
+      "category": "Doctor Guidance",
+      "image": "/assets/doctors/dr_priyanka_poster.jpg",
+      "alt": "Dr. Priyanka Gynaecologist Trinethra Hospital"
+    },
+    {
+      "id": "gal-ent-poster",
+      "title": "Tonsillitis & ENT Care - Dr. Samatha Garu (Gold Medalist)",
+      "category": "Doctor Guidance",
+      "image": "/assets/doctors/dr_samatha_poster.jpg",
+      "alt": "Dr. Samatha Garu ENT Specialist Trinethra Hospital"
+    },
+    {
+      "id": "gal-bp-poster",
+      "title": "Blood Pressure & Hypertension Guidance - Dr. Valli Sri",
+      "category": "Doctor Guidance",
+      "image": "/assets/doctors/dr_valli_sri_poster.jpg",
+      "alt": "Dr. Valli Sri General Medicine Trinethra Hospital"
+    },
+    {
+      "id": "gal-surgery-poster",
+      "title": "General & Laparoscopic Surgery - Dr. P. Sarathy",
+      "category": "Doctor Guidance",
+      "image": "/assets/doctors/dr_p_sarathy_poster.jpg",
+      "alt": "Dr. P. Sarathy General Surgery Trinethra Hospital"
+    }
+  ]
+}
